@@ -3,15 +3,56 @@ body {
 }
 
 aside {
-	float: left;
+	width: 126px;
+	border-right: 1px solid #eee;
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+}
+
+aside li {
+	list-style-type: none;
+	text-align: right;
+	color: #acacac;
+}
+
+aside img {
+	width: 45px;
+	margin: 0px auto;
 }
 
 section {
+	position: absolute;
+	left: 126px;
+}
+
+#title {
+	color: #000;
+	font-family: 'Helvetica',sans-serif;
+}
+
+.content {
+
+}
+
+#article-title {
+	color: #000;
+	font-size: 36px;
+	font-family: 'Helvetica',sans-serif;
+}
+
+#author {
+	color: #327CCB;
+	font-size: 10px;
+}
+
+#article {
 
 }
 
 #primary {
-
+	margin: 15px;
 }
 
 #secondary {
@@ -19,5 +60,15 @@ section {
 }
 
 nav {
+	width: 15px;
+	border-left: 1px solid #eee;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	background: #fff
+		url(https://dtu1xr3i3b2a1.cloudfront.net/cargo/icons/arrow_down_black-4309ed2aa9ced3b702d2eda70ce014f5.png) no-repeat;
+}
 
+@media screen and (min-width: 600px) {
+	
 }
