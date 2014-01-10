@@ -1,5 +1,6 @@
 body {
-	font-family: 'proxima-nova','Helvetica','Avenir','Arial',sans-serif;
+	font-family: 'Helvetica',sans-serif;
+	color: #4d4d4d;
 }
 
 aside {
@@ -15,11 +16,16 @@ aside li {
 	list-style-type: none;
 	text-align: right;
 	color: #acacac;
+	padding-right: 20px;
+	padding-bottom: 12px;
 }
 
 aside img {
 	width: 45px;
 	margin: 0px auto;
+	padding-left: 55px;
+	padding-top: 30px;
+
 }
 
 section {
@@ -36,7 +42,7 @@ section {
 
 }
 
-#article-title {
+.article-title {
 	color: #000;
 	font-size: 36px;
 	font-family: 'Helvetica',sans-serif;
@@ -57,16 +63,6 @@ section {
 
 #secondary {
 
-}
-
-nav {
-	width: 15px;
-	border-left: 1px solid #eee;
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	background: #fff
-		url(https://dtu1xr3i3b2a1.cloudfront.net/cargo/icons/arrow_down_black-4309ed2aa9ced3b702d2eda70ce014f5.png) no-repeat;
 }
 
 @media screen and (min-width: 600px) {
